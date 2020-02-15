@@ -1,10 +1,6 @@
 #!/usr/local/bin/python3
 # solve_luddy.py : Sliding tile puzzle solver
-#
-# Code by: Sumith Reddy Baddam (srbaddam), Sai Swapna Gollapudi (sagoll)
-#
-# Based on skeleton code by D. Crandall, September 2019
-#
+
 import queue as Q
 import heapq
 goal_state = list(range(1,16))
